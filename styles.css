@@ -172,6 +172,11 @@ button:hover, button:focus,
    }
    /* end grid fallback */
 
+.colorado_flag {
+    display: block;
+    padding: 10px;
+}
+
 @supports (display: grid) {
 
     .grid {
