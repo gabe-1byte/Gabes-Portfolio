@@ -90,6 +90,14 @@ table {
     margin-right: auto;
 }
 
+.contact_info {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
 a:visited {
     color: var(--visited-link);
 }
