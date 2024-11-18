@@ -97,6 +97,10 @@ table {
     margin-right: auto;
 }
 
+.work_heading {
+    text-align: center;
+}
+
 a:visited {
     color: var(--visited-link);
 }
