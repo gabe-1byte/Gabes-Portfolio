@@ -76,6 +76,10 @@ a {
     color: var(--primary-color);
 }
 
+.about_bio {
+    width: 500px;
+}
+
 a:visited {
     color: var(--visited-link);
 }
