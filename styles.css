@@ -38,7 +38,9 @@ Bold
     --dark-grey: #2b2b2b;
     --visited-link: #05676e;
     --active-link: #489c79;
-    --heading-font-weight: 700;
+    --heading-font-weight: bold;
+    --heading-font-size: 30px;
+    --subheading-font-size: 25px;
 }
 
 
@@ -51,12 +53,13 @@ body {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: var(--heading-font-size);
+    font-weight: var(--heading-font-weight);
     
 }
 
 h2 {
-    font-size: 24px;
+    font-size: var(--subheading-font-size);
     font-weight: var(--heading-font-weight);
 }
 
@@ -275,5 +278,13 @@ button:hover, button:focus,
 
     h1 {
         font-size: 22px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 16px;
     }
 }
