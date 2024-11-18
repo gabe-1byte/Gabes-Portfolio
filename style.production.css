@@ -79,6 +79,12 @@ a {
     color: var(--primary-color);
 }
 
+span {
+    background-color: #2b2b2b;
+    color: aquamarine;
+    border-radius: 25%;
+  }
+
 .about_bio {
     width: 500px;
 }
