@@ -102,7 +102,7 @@ table {
     padding: 10px;
 }
 
-table th td {
+table, th, td {
     border: #2b2b2b 1px solid;
 }
 
