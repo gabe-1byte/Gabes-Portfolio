@@ -1,7 +1,7 @@
 <svg width="200px" height="70px" viewBox="0 0 200 70" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
-  <rect width="200" height="70" fill="#282c34" rx="10" />
+  <rect width="200" height="70" fill="#2b2b2b" rx="10" />
 
   <!-- Text styling -->
-  <text x="25" y="45" font-family="monospace" font-size="40" fill="#98c379">&lt;Gabe/&gt;</text>
+  <text x="25" y="45" font-family="monospace" font-size="40" fill="aquamarine">&lt;Gabe/&gt;</text>
 </svg>
