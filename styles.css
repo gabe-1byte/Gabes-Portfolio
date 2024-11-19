@@ -89,6 +89,10 @@ span {
     margin-right: auto;
 }
 
+textarea {
+    resize: none;
+}
+
 table {
     text-align: center;
     margin-left: auto;
