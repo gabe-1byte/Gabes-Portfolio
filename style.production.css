@@ -109,6 +109,10 @@ table {
     padding: 10px;
 }
 
+table, th, td {
+    border: #2b2b2b 1px solid;
+}
+
 .contact_info {
     text-align: center;
 }
@@ -349,7 +353,6 @@ button:hover, button:focus,
     }
     
     form {
-        width: 200px;
         display: inline-block;
         margin-left: auto;
         margin-right: auto;
