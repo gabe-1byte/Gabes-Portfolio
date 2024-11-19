@@ -302,6 +302,35 @@ button:hover, button:focus,
 
 @media all and (max-width: 750px) {
     /*shared code here*/
+    .navigation-list li {
+        display: block;
+        margin-left: 15px;
+    }
+
+    .profile__portrait {
+        display: inline-block;
+        margin-left: 15%;
+        margin-right: 15%;
+        float: none; 
+        width: 150px;
+        border-radius: 50%;
+    }
+    
+    .profile {
+        text-align: center;
+        max-width: 350px;
+
+    }
+
+    .profile__portrait {
+        width: 150px;
+    }
+    
+    .profile {
+        max-width: 250px;
+        margin: 0 auto;
+    }
+
     .grid {
         grid-gap: 10px
 
