@@ -113,8 +113,15 @@ table {
     text-align: center;
 }
 
-form {
+.contact__form {
+    display: block;
     text-align: center;
+}
+
+form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 a:visited {
@@ -333,6 +340,19 @@ button:hover, button:focus,
     .about_bio__text {
         text-align: center;
         max-width: 250px;
+    }
+
+    /*contact.html accessibility*/
+    .contact__form {
+        display: block;
+        text-align: center;
+    }
+    
+    form {
+        width: 200px;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     /*grid accessibility*/

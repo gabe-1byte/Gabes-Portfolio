@@ -43,26 +43,26 @@
                 <p>123 ABC Street <br />
                 Denver, CO 80014</p>
                 <br>
-                <a href="tel:+1 (123)-456-7890">Tel: +1 (123)-456-7890</a>
-                <br>
                 <a href="mailto:abc@xyz.com">Email: abc@xyz.com</a>
-                <a href="mailto:abc@xyz.com">Contact me</a>
+                <br>
+                <a href="tel:+1 (123)-456-7890">Tel: +1 (123)-456-7890</a>
             </div>
-        <form action="" method="post" id="contact-form">
-            <label class="standard-label" for="contact-email">E-mail: </label>
-            <input type="email" id="contact-email" placeholder="Ex: abc@xyz.com" required>
+        <div class="contact__form">    
+            <form action="" method="post" id="contact-form">
 
-            <br />
-            <label class="standard-label" for="conatact-telephone">Telephone: </label>
-            <input type="tel" id="conatact-telephone" placeholder="Ex: 123-456-7890" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
-            
-            <br />
-            <label class="standard-label" for="contact-message">Message: </label>
-            <textarea id="contact-message" placeholder="Write your message here..." rows="1" cols="25" maxlength="240" required></textarea>
+                <label class="standard-label" for="contact-email">E-mail: </label>
+                <input type="email" id="contact-email" placeholder="Ex: abc@xyz.com" required>
 
+                <label class="standard-label" for="conatact-telephone">Telephone: </label>
+                <input type="tel" id="contact-telephone" placeholder="Ex: 123-456-7890" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+                
+                <label class="standard-label" for="contact-message">Message: </label>
+                <textarea id="contact-message" placeholder="Write message here..." rows="1" cols="20" maxlength="240" required></textarea>
 
-            <input type="submit" value="Submit">
-        </form>
+                <br />
+                <input type="submit" value="Submit">
+            </form>
+        </div>
         <footer class="page-footer">
             <h2>Find me on</h2>
             <div class="social-media">

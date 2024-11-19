@@ -106,8 +106,15 @@ table {
     text-align: center;
 }
 
-form {
+.contact__form {
+    display: block;
     text-align: center;
+}
+
+form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 a:visited {
