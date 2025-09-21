@@ -270,6 +270,8 @@ button:hover, button:focus,
         width: auto;
         min-height: auto;
         margin: 0;
+        border-radius: 3%;
+        padding: 10px;
     }
 
     grid__item:last-child {
