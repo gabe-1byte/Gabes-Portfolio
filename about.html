@@ -36,66 +36,69 @@
             </nav>
         </header>
         <hr />
-        <h1 class="center_heading">About me</h1>
-        <div class="about_bio__text">
-            <p>My name is Gabe, and I'm a software engineer from Colorado. I'm always eager to understand how and 
-                why code works, and I'm confident in my ability to tackle any challenges that come my way. </p>
-            <p>In addition, I thrive on working with and learning from others.
-                Sharing ideas and working with others can lead to unique solutions.
-                I look forward to expanding my knowledge and working on exciting projects in the future!
-            </p>
-        </div>        
-        <h2 class="center_heading">My Experience</h2>
-        <table>
+
+        <section class="about">
+            <h1>About me</h1>
+
+            <div class="about-content">
+                <img src="images/Gabe_Headshot.jpeg" class="about-photo" alt="Photo of Gabe">
+            <div class="about-text">
+                <p>
+                    Hi, I'm <strong>Gabe Buckman</strong>, a software engineer from Colorado.
+                    I'm deeply curious about how and why things work, whether it's solving a tough backend issue or polishing the frontend for a great user experience.
+                </p>
+                <p>
+                I thrive in collaborative environments where I can share ideas, learn from others, and tackle challenging projects.
+                    I'm constantly building, improving, and exploring new technologies to grow as a developer.
+                </p>
+            </div>
+            </div>
+
+        <h2>Technical Skills</h2>
+        <table class="skills-table">
             <thead>
                 <tr>
                     <th>Skills</th>
-                    <th>Confidence Level</th>    
+                    <th>Confidence</th>    
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>HTML</td>
-                    <td>Confident</td>
-                </tr>
-                <tr>
-                    <td>CSS</td>
-                    <td>Confident</td>
-                </tr>
-                <tr>
-                    <td>JavaScript</td>
-                    <td>Confident</td>
-                </tr>
-                <tr>
-                    <td>React</td>
-                    <td>Confident</td>
-                </tr>
-                <tr>
-                    <td>Node.js</td>
-                    <td>Confident</td>
-                </tr>
-                <tr>
-                    <td>Express</td>
-                    <td>Confident</td>
-                </tr>
-                <tr>
-                    <td>MongoDB</td>
-                    <td>Confident</td>
-                </tr>
+                <tr><td>HTML</td><td>Confident</td></tr>
+                <tr><td>CSS</td><td>Confident</td></tr>
+                <tr><td>JavaScript</td><td>Confident</td></tr>
+                <tr><td>React</td><td>Confident</td></tr>
+                <tr><td>Node.js</td><td>Confident</td></tr>
+                <tr><td>Express</td><td>Confident</td></tr>
+                <tr><td>MongoDB</td><td>Confident</td></tr>
             </tbody>
         </table>
+        </section>
 
-        <!-- <a href="files/cv.pdf" class="button" download>Download my CV</a> -->
-        
         <footer class="page-footer">
             <h2>Find me on</h2>
             <div class="social-media">
-                <!--Github link-->
+                <!--Github-->
                 <a href="https://github.com/gabe-1byte" target="_blank">
-                    <!--Github icon-->
                     <img src="images/github_logo.svg" alt="github logo"></a>
+                <!--LinkedIn-->
+                <a href="https://www.linkedin.com/in/gabriel-buckman-9991aa357/" target="_blank">
+                    <img src="images/LinkedIn_icon.svg" alt="LinkedIn" /></a>
             </div>
+            <p>© 2025 Gabe Buckman</p>
         </footer>
+        <script>
+            (function () {
+                const isLocal =
+                    location.hostname === 'localhost' ||
+                    location.hostname === '127.0.0.1' ||
+                    location.hostname === '';
+                if (isLocal) {
+                    const s = document.createElement('script');
+                    s.src = 'js/tota11y.min.js';
+                    s.defer = true;
+                    document.body.appendChild(s);
+                }
+            })();
+        </script>
     </body>
-    <script src="js/tota11y.min.js"></script>
 </html>

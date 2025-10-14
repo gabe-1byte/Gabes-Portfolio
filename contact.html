@@ -37,41 +37,40 @@
             </nav>
     </header>
     <hr />
-            <h1 class="center_heading">Contact</h1>
-            <div class="contact_info">
+    <section class="contact">
+            <h1>Contact</h1>
                 <h2>Gabe Buckman</h2>
-                <h3>Software Engineer</h3>
-                <p>Feel free to contact me at:<br/><a href="mailto:gabe.m.buckman@gmail.com">gabe.m.buckman@gmail.com</a></p>
+                <p class="subtitle">Software Engineer</p>
+                <p>Feel free to contact me at:<br/><a href="mailto:gabe.m.buckman@gmail.com" class="email">gabe.m.buckman@gmail.com</a></p>
                 <br>
-            </div>
 
-        <!-- <div class="contact__form">    
-            <form action="" method="post" id="contact-form">
+            <footer class="page-footer">
+                <h2>Find me on</h2>
+                <div class="social-media">
+                    <!--Github-->
+                    <a href="https://github.com/gabe-1byte" target="_blank">
+                        <img src="images/github_logo.svg" alt="github logo"></a>
+                    <!--LinkedIn-->
+                    <a href="https://www.linkedin.com/in/gabriel-buckman-9991aa357/" target="_blank">
+                        <img src="images/LinkedIn_icon.svg" alt="LinkedIn" /></a>
+                </div>
+                <p>© 2025 Gabe Buckman</p>
+            </footer>
+        </section>
+        <script>
+            (function () {
+                const isLocal =
+                    location.hostname === 'localhost' ||
+                    location.hostname === '127.0.0.1' ||
+                    location.hostname === '';
 
-                <label class="standard-label" for="contact-email">E-mail: </label>
-                <input type="email" id="contact-email" placeholder="Ex: abc@xyz.com" required>
-
-                <label class="standard-label" for="conatact-telephone">Telephone: </label>
-                <input type="tel" id="contact-telephone" placeholder="Ex: 123-456-7890" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
-                
-                <label class="standard-label" for="contact-message">Message: </label>
-                <textarea id="contact-message" placeholder="Write message here..." rows="1" cols="20" maxlength="240" required></textarea>
-
-                <br />
-                <input type="submit" value="Submit">
-            </form>
-        </div> -->
-
-
-        <footer class="page-footer">
-            <h2>Find me on</h2>
-            <div class="social-media">
-                <!--Github link-->
-                <a href="https://github.com/gabe-1byte" target="_blank">
-                    <!--Github icon-->
-                    <img src="images/github_logo.svg" alt="github logo"></a>
-            </div>
-        </footer>
+            if (isLocal) {
+                const s = document.createElement('script');
+                s.src = 'js/tota11y.min.js';
+                s.defer = true;
+                document.body.appendChild(s);
+            }
+        })();
+    </script>
     </body>
-    <script src="js/tota11y.min.js"></script>
 </html>
